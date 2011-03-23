@@ -1,0 +1,5 @@
+SmallActivityIndicator
+======================
+
+This code can be used in any iPhone app to show an activity indicator which animates from the bottom up and displays a single line of text.
+As soon as you're done, you should hide the activity indicator.
