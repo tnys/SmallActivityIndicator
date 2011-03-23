@@ -1,6 +1,5 @@
 //
 //  SmallActivityIndicator.m
-//  MovieCenter
 //
 //  Created by Tom Nys on 23/03/11.
 //  Copyright 2011 Netwalk VOF. All rights reserved.
