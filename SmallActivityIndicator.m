@@ -22,11 +22,11 @@ static SmallActivityIndicator* globalSmallActivityIndicator;
 		if (!isVisible)
 		{
 			[superview addSubview:label];
-			label.frame = CGRectMake(0, v.bounds.size.height, 320, 20);
+			label.frame = CGRectMake(0, v.bounds.size.height + 10, v.bounds.size.width, 20);
 			[UIView animateWithDuration:0.5 
 							 animations:^(void) {
 								 CGRect fr = label.frame;
-								 fr.origin.y -= 20;
+								 fr.origin.y -= 30;
 								 label.frame = fr;
 							 } 
 							 completion:^(BOOL finished) {
@@ -49,7 +49,7 @@ static SmallActivityIndicator* globalSmallActivityIndicator;
 							options:0 
 						 animations:^(void) {
 							 CGRect fr = label.frame;
-							 fr.origin.y += 20;
+							 fr.origin.y += 30;
 							 label.frame = fr;
 						 } 
 						 completion:^(BOOL finished) {

@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB30C299133B25EA005A59FD /* SmallActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = DB30C298133B25EA005A59FD /* SmallActivityIndicator.m */; };
+		DBE31074133B258F00AA7CFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE31073133B258F00AA7CFC /* UIKit.framework */; };
+		DBE31076133B258F00AA7CFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE31075133B258F00AA7CFC /* Foundation.framework */; };
+		DBE31078133B258F00AA7CFC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE31077133B258F00AA7CFC /* CoreGraphics.framework */; };
+		DBE3107E133B258F00AA7CFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBE3107C133B258F00AA7CFC /* InfoPlist.strings */; };
+		DBE31081133B258F00AA7CFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE31080133B258F00AA7CFC /* main.m */; };
+		DBE31084133B258F00AA7CFC /* SmallActivityIndicatorSampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE31083133B258F00AA7CFC /* SmallActivityIndicatorSampleAppDelegate.m */; };
+		DBE31087133B258F00AA7CFC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBE31085133B258F00AA7CFC /* MainWindow.xib */; };
+		DBE3108A133B258F00AA7CFC /* SmallActivityIndicatorSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE31089133B258F00AA7CFC /* SmallActivityIndicatorSampleViewController.m */; };
+		DBE3108D133B258F00AA7CFC /* SmallActivityIndicatorSampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBE3108B133B258F00AA7CFC /* SmallActivityIndicatorSampleViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB30C297133B25EA005A59FD /* SmallActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallActivityIndicator.h; sourceTree = SOURCE_ROOT; };
+		DB30C298133B25EA005A59FD /* SmallActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmallActivityIndicator.m; sourceTree = SOURCE_ROOT; };
+		DBE3106F133B258F00AA7CFC /* SmallActivityIndicatorSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmallActivityIndicatorSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBE31073133B258F00AA7CFC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DBE31075133B258F00AA7CFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DBE31077133B258F00AA7CFC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DBE3107B133B258F00AA7CFC /* SmallActivityIndicatorSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmallActivityIndicatorSample-Info.plist"; sourceTree = "<group>"; };
+		DBE3107D133B258F00AA7CFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DBE3107F133B258F00AA7CFC /* SmallActivityIndicatorSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmallActivityIndicatorSample-Prefix.pch"; sourceTree = "<group>"; };
+		DBE31080133B258F00AA7CFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBE31082133B258F00AA7CFC /* SmallActivityIndicatorSampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmallActivityIndicatorSampleAppDelegate.h; sourceTree = "<group>"; };
+		DBE31083133B258F00AA7CFC /* SmallActivityIndicatorSampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmallActivityIndicatorSampleAppDelegate.m; sourceTree = "<group>"; };
+		DBE31086133B258F00AA7CFC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		DBE31088133B258F00AA7CFC /* SmallActivityIndicatorSampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmallActivityIndicatorSampleViewController.h; sourceTree = "<group>"; };
+		DBE31089133B258F00AA7CFC /* SmallActivityIndicatorSampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmallActivityIndicatorSampleViewController.m; sourceTree = "<group>"; };
+		DBE3108C133B258F00AA7CFC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SmallActivityIndicatorSampleViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBE3106C133B258F00AA7CFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE31074133B258F00AA7CFC /* UIKit.framework in Frameworks */,
+				DBE31076133B258F00AA7CFC /* Foundation.framework in Frameworks */,
+				DBE31078133B258F00AA7CFC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBE31064133B258F00AA7CFC = {
+			isa = PBXGroup;
+			children = (
+				DBE31079133B258F00AA7CFC /* SmallActivityIndicatorSample */,
+				DBE31072133B258F00AA7CFC /* Frameworks */,
+				DBE31070133B258F00AA7CFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBE31070133B258F00AA7CFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBE3106F133B258F00AA7CFC /* SmallActivityIndicatorSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBE31072133B258F00AA7CFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBE31073133B258F00AA7CFC /* UIKit.framework */,
+				DBE31075133B258F00AA7CFC /* Foundation.framework */,
+				DBE31077133B258F00AA7CFC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBE31079133B258F00AA7CFC /* SmallActivityIndicatorSample */ = {
+			isa = PBXGroup;
+			children = (
+				DB30C297133B25EA005A59FD /* SmallActivityIndicator.h */,
+				DB30C298133B25EA005A59FD /* SmallActivityIndicator.m */,
+				DBE31082133B258F00AA7CFC /* SmallActivityIndicatorSampleAppDelegate.h */,
+				DBE31083133B258F00AA7CFC /* SmallActivityIndicatorSampleAppDelegate.m */,
+				DBE31085133B258F00AA7CFC /* MainWindow.xib */,
+				DBE31088133B258F00AA7CFC /* SmallActivityIndicatorSampleViewController.h */,
+				DBE31089133B258F00AA7CFC /* SmallActivityIndicatorSampleViewController.m */,
+				DBE3108B133B258F00AA7CFC /* SmallActivityIndicatorSampleViewController.xib */,
+				DBE3107A133B258F00AA7CFC /* Supporting Files */,
+			);
+			path = SmallActivityIndicatorSample;
+			sourceTree = "<group>";
+		};
+		DBE3107A133B258F00AA7CFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBE3107B133B258F00AA7CFC /* SmallActivityIndicatorSample-Info.plist */,
+				DBE3107C133B258F00AA7CFC /* InfoPlist.strings */,
+				DBE3107F133B258F00AA7CFC /* SmallActivityIndicatorSample-Prefix.pch */,
+				DBE31080133B258F00AA7CFC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBE3106E133B258F00AA7CFC /* SmallActivityIndicatorSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBE31090133B258F00AA7CFC /* Build configuration list for PBXNativeTarget "SmallActivityIndicatorSample" */;
+			buildPhases = (
+				DBE3106B133B258F00AA7CFC /* Sources */,
+				DBE3106C133B258F00AA7CFC /* Frameworks */,
+				DBE3106D133B258F00AA7CFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmallActivityIndicatorSample;
+			productName = SmallActivityIndicatorSample;
+			productReference = DBE3106F133B258F00AA7CFC /* SmallActivityIndicatorSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBE31066133B258F00AA7CFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Netwalk VOF";
+			};
+			buildConfigurationList = DBE31069133B258F00AA7CFC /* Build configuration list for PBXProject "SmallActivityIndicatorSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DBE31064133B258F00AA7CFC;
+			productRefGroup = DBE31070133B258F00AA7CFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBE3106E133B258F00AA7CFC /* SmallActivityIndicatorSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBE3106D133B258F00AA7CFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE3107E133B258F00AA7CFC /* InfoPlist.strings in Resources */,
+				DBE31087133B258F00AA7CFC /* MainWindow.xib in Resources */,
+				DBE3108D133B258F00AA7CFC /* SmallActivityIndicatorSampleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBE3106B133B258F00AA7CFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE31081133B258F00AA7CFC /* main.m in Sources */,
+				DBE31084133B258F00AA7CFC /* SmallActivityIndicatorSampleAppDelegate.m in Sources */,
+				DBE3108A133B258F00AA7CFC /* SmallActivityIndicatorSampleViewController.m in Sources */,
+				DB30C299133B25EA005A59FD /* SmallActivityIndicator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DBE3107C133B258F00AA7CFC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBE3107D133B258F00AA7CFC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DBE31085133B258F00AA7CFC /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBE31086133B258F00AA7CFC /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		DBE3108B133B258F00AA7CFC /* SmallActivityIndicatorSampleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBE3108C133B258F00AA7CFC /* en */,
+			);
+			name = SmallActivityIndicatorSampleViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBE3108E133B258F00AA7CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DBE3108F133B258F00AA7CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		DBE31091133B258F00AA7CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmallActivityIndicatorSample/SmallActivityIndicatorSample-Prefix.pch";
+				INFOPLIST_FILE = "SmallActivityIndicatorSample/SmallActivityIndicatorSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DBE31092133B258F00AA7CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmallActivityIndicatorSample/SmallActivityIndicatorSample-Prefix.pch";
+				INFOPLIST_FILE = "SmallActivityIndicatorSample/SmallActivityIndicatorSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBE31069133B258F00AA7CFC /* Build configuration list for PBXProject "SmallActivityIndicatorSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBE3108E133B258F00AA7CFC /* Debug */,
+				DBE3108F133B258F00AA7CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBE31090133B258F00AA7CFC /* Build configuration list for PBXNativeTarget "SmallActivityIndicatorSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBE31091133B258F00AA7CFC /* Debug */,
+				DBE31092133B258F00AA7CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBE31066133B258F00AA7CFC /* Project object */;
+}
